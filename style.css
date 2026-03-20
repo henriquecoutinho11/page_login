@@ -1,0 +1,106 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #aacfff68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login_box {
+    width: 30%;
+    height: 80vh;
+    background-color: white;
+    border-radius: 7.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.login_box:hover {
+    box-shadow: 0px 0px 50px -5px #006cfa;
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vh;
+    height: 30vh;
+    background-color: #006cfa;
+    border-radius: 50%;
+}
+
+.logo:hover {
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+.logo img {
+    width: 29vh;
+    height: 29vh;
+    border-radius: 50%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5vh;
+    align-items: center;
+}
+
+.formulario input {
+    width: 100%;
+    height: 5vh;
+    border: none;
+    background-color: #aacfff68;
+    padding-left: 2vh;
+}
+
+input:focus {
+    outline-color: #006cfa;
+}
+
+p {
+    text-align: center;
+    color: #006cfa;
+    cursor: pointer;
+}
+
+p:hover {
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+button {
+    width: 65%;
+    background-color: #006cfa;
+    padding: 2vh;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    margin-top: 2.5vh;
+}
+
+button:hover {
+    background-color: #005ed9;
+    transition: 0.2s;
+}

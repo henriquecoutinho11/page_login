@@ -5,9 +5,23 @@
 body {
     background-color: #aacfff68;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 100vh;
+}
+
+.esquerda {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda h1 {
+    width: 100%;
+    color: #006cfa;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .login_box {

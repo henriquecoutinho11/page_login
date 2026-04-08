@@ -95,6 +95,7 @@ p {
     text-align: center;
     color: #006cfa;
     cursor: pointer;
+    margin-top: 1.5vh;
 }
 
 p:hover {

@@ -120,3 +120,48 @@ button:hover {
     background-color: #005ed9;
     transition: 0.2s;
 }
+
+@media (max-width: 1110px) {
+    body {
+        flex-direction: column;
+    }
+
+    .esquerda {
+        width: 100%;
+    }
+
+    .login_box {
+        width: 80%;
+        height: 70vh;
+    }
+
+    .esquerda h1 {
+        font-size: 2rem;
+    }
+
+    .logo {
+        width: 20vh;
+        height: 20vh;
+    }
+
+    .logo img {
+        width: 19vh;
+        height: 19vh;
+    }
+
+    .formulario input {
+        height: 4vh;
+    }
+
+    button {
+        padding: 1.5vh;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+    }
+}
